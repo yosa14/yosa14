@@ -1,0 +1,96 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #ff3d3d;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.top-nav{ 
+    padding: 8px 12px;
+    background-color: #ffdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-nav .social-links {
+    list-style: none;
+}
+
+.top-nav .social-links li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.top-nav .social-links li:last-child{
+    margin-right: 0;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: hsl(347, 99%, 43%);
+}
+
+
+nav .logo span{
+    color: #4346ff;
+}
+
+nav .menu {
+    list-style: none;
+}
+
+nav .menu .menu-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav .menu .menu-item:last-of-type {
+    margin-right: 0;
+}
+
+nav .menu a {
+    color: #02b6ec;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav .menu .menu-item.active a, 
+nav .menu .menu-item:hover a {
+    color: #ff3d3d;
+}
+.b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+}
+body{
+    background-image: url(./z.jpg);
+    background-size: cover;
+}
+.a{
+    color: white;
+    margin-top: 150px;
+}

@@ -1,0 +1,163 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #ff3d3d;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.top-nav{ 
+    padding: 8px 12px;
+    background-color: #ffdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-nav .social-links {
+    list-style: none;
+}
+
+.top-nav .social-links li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.top-nav .social-links li:last-child{
+    margin-right: 0;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff3d3d;
+}
+
+
+nav .logo span{
+    color: #4346ff;
+}
+
+nav .menu {
+    list-style: none;
+}
+
+nav .menu .menu-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav .menu .menu-item:last-of-type {
+    margin-right: 0;
+}
+
+nav .menu a {
+    color: #02b6ec;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav .menu .menu-item.active a, 
+nav .menu .menu-item:hover a {
+    color: #ff3d3d;
+}
+.o{
+    margin-top: 25px;
+    padding-top: 25px;
+    border: 1px solid;
+    border-width: 1px;
+    height: 150px;
+    padding: auto;
+    width: 300px; 
+    margin-left: 50px;
+    padding-left: 10px;
+    border-color:white;
+
+}
+.b{
+    margin-top: -175px;
+    padding-top: 25px;
+    border: 1px solid;
+    border-width: 1px;
+    height: 150px;
+    width: 300px;
+    margin-left: 50px;
+    border-color:white;
+    margin-left: 500px;
+
+}
+.c{
+    margin-top: -175px;
+    padding-top: 25px;
+    border: 1px solid;
+    border-width: 1px;
+    height: 150px;
+    width: 300px;
+    margin-left: 50px;
+    border-color: white;
+    margin-left: 900px;
+
+}
+.d{
+    margin-top: 50px;
+    padding-top: 25px;
+    border: 1px solid;
+    border-width: 1px;
+    height:150px ;
+    width: 300px;
+    border-color:white;
+    margin-left: 50px;
+}
+.e{
+    margin-top: -175px;
+    padding-top: 25px;
+    border: 1px solid;
+    border-width: 1px;
+    height:150px ;
+    width: 300px;
+    border-color: white;
+    margin-left: 500px;
+}
+
+.h{
+    margin-top: -175px;
+    padding-top: 25px;
+    border: 1px solid;
+    border-width: 1px;
+    height:150px ;
+    width: 300px;
+    border-color:white;
+    margin-left: 900px; 
+ }
+
+.z{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+body{
+    background-image: url(./c.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+}
